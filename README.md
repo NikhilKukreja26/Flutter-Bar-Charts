@@ -1,6 +1,6 @@
 # Flutter Bar Charts
 
-<h2 align = "center">Different Types of Bar Charts Example</h2>
+<h2>Different Types of Bar Charts Example</h2>
 
 <ul>
   <li>Simple</li>
