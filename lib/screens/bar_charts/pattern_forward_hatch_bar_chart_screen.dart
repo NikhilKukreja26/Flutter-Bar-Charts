@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
-import '../models/ordinal_sales_model.dart';
+import '../../models/ordinal_sales_model.dart';
 
-class StackedBarChartScreen extends StatelessWidget {
+class PatternForwardHatchBarChartScreen extends StatelessWidget {
   static List<charts.Series<OrdinalSalesModel, String>> createSampleData() {
     final desktopSalesData = [
       OrdinalSalesModel(year: '2017', sales: 5),
@@ -38,6 +38,8 @@ class StackedBarChartScreen extends StatelessWidget {
         domainFn: (OrdinalSalesModel sales, _) => sales.year,
         measureFn: (OrdinalSalesModel sales, _) => sales.sales,
         data: tableSalesData,
+        fillPatternFn: (OrdinalSalesModel sales, _) =>
+            charts.FillPatternType.forwardHatch,
       ),
       charts.Series<OrdinalSalesModel, String>(
         id: 'Mobile',
@@ -52,7 +54,7 @@ class StackedBarChartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Stacked Bar Chart"),
+        title: Text('Pattern Forward Hatch Bar Chart'),
       ),
       body: Container(
         padding: const EdgeInsets.all(20.0),
@@ -63,7 +65,7 @@ class StackedBarChartScreen extends StatelessWidget {
               createSampleData(),
               animate: true,
               animationDuration: const Duration(milliseconds: 500),
-              barGroupingType: charts.BarGroupingType.stacked,
+              barGroupingType: charts.BarGroupingType.grouped,
             ),
           ),
         ),

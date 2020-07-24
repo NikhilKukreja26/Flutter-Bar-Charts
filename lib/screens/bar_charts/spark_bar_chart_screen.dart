@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
-import '../models/ordinal_sales_model.dart';
+import '../../models/ordinal_sales_model.dart';
 
 class SparkBarChartScreen extends StatelessWidget {
   static List<charts.Series<OrdinalSalesModel, String>> createSampleData() {

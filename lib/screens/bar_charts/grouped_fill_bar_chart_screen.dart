@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
-import '../models/ordinal_sales_model.dart';
+import '../../models/ordinal_sales_model.dart';
 
-class StackedFillColorBarChartScreen extends StatelessWidget {
+class GroupedFillBarChartScreen extends StatelessWidget {
   static List<charts.Series<OrdinalSalesModel, String>> createSampleData() {
     final desktopSalesData = [
       OrdinalSalesModel(year: '2017', sales: 5),
@@ -58,7 +58,7 @@ class StackedFillColorBarChartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Stacked Fill Bar Chart'),
+        title: Text('Grouped Fill Bar Chart'),
       ),
       body: Container(
         padding: const EdgeInsets.all(20.0),
@@ -70,8 +70,8 @@ class StackedFillColorBarChartScreen extends StatelessWidget {
               animate: true,
               animationDuration: const Duration(milliseconds: 500),
               defaultRenderer: new charts.BarRendererConfig(
-                groupingType: charts.BarGroupingType.stacked,
-                strokeWidthPx: 2.0,
+                groupingType: charts.BarGroupingType.grouped,
+                strokeWidthPx: 4.0,
               ),
             ),
           ),
