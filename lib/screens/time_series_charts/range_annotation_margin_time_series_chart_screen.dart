@@ -20,9 +20,9 @@ class RangeAnnotationMarginTimeSeriesChartScreen extends StatelessWidget {
               animate: true,
               animationDuration: const Duration(milliseconds: 500),
               layoutConfig: charts.LayoutConfig(
-                // leftMarginSpec: new charts.MarginSpec.fixedPixel(60),
+                leftMarginSpec: new charts.MarginSpec.fixedPixel(0),
                 topMarginSpec: new charts.MarginSpec.fixedPixel(20),
-                // rightMarginSpec: new charts.MarginSpec.fixedPixel(60),
+                rightMarginSpec: new charts.MarginSpec.fixedPixel(0),
                 bottomMarginSpec: new charts.MarginSpec.fixedPixel(20),
               ),
               behaviors: [

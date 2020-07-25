@@ -7,10 +7,17 @@ class SimpleTimeSeriesChartScreen extends StatelessWidget {
   static List<charts.Series<TimeSeriesSalesModel, DateTime>>
       createSampleData() {
     final data = [
-      TimeSeriesSalesModel(dateTime: DateTime(2020, 5, 9), sales: 5),
-      TimeSeriesSalesModel(dateTime: DateTime(2020, 5, 26), sales: 25),
-      TimeSeriesSalesModel(dateTime: DateTime(2020, 6, 3), sales: 100),
-      TimeSeriesSalesModel(dateTime: DateTime(2020, 6, 10), sales: 75),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 4, 5), sales: 2),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 4, 30), sales: 40),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 5, 9), sales: 15),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 5, 20), sales: 25),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 6, 10), sales: 25),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 6, 25), sales: 45),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 7, 2), sales: 30),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 7, 15), sales: 75),
+      // TimeSeriesSalesModel(dateTime: DateTime(2020, 7, 20), sales: 80),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 8, 1), sales: 35),
+      TimeSeriesSalesModel(dateTime: DateTime(2020, 8, 25), sales: 100),
     ];
 
     return [
