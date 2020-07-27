@@ -110,6 +110,26 @@ class BuildLineCharts extends StatelessWidget {
             );
           },
         ),
+        BuildChartTypeHeading(
+          title: 'Range Annotation Line Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => RangeAnnotationLineChartScreen(),
+              ),
+            );
+          },
+        ),
+        // BuildChartTypeHeading(
+        //   title: 'Range Annotation Margin Line Chart',
+        //   onTap: () {
+        //     Navigator.of(context).push(
+        //       MaterialPageRoute(
+        //         builder: (context) => RangeAnnotationMarginLineChartScreen(),
+        //       ),
+        //     );
+        //   },
+        // ),
       ],
     );
   }

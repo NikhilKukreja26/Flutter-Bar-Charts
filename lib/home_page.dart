@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import './screens/bar_charts/index.dart';
 import './screens/time_series_charts/index.dart';
 import './screens/line_charts/index.dart';
+import './screens/scatter_plot/index.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -20,6 +21,7 @@ class HomePage extends StatelessWidget {
               BuildBarCharts(),
               BuildTimeSeriesCharts(),
               BuildLineCharts(),
+              BuildScatterPlotCharts(),
             ],
           ),
         ),

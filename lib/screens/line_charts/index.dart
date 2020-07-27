@@ -9,3 +9,5 @@ export 'stacked_area_nulls_line_chart_screen.dart';
 export 'dashed_pattern_line_chart_screen.dart';
 export 'segments_line_chart_screen.dart';
 export 'line_annotation_line_chart_screen.dart';
+export 'range_annotation_line_chart_screen.dart';
+export 'range_annotation_margin_line_chart_screen.dart';
