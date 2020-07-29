@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_charts_demo/screens/pie_charts/index.dart';
 import 'package:flutter_charts_demo/screens/pie_charts/outside_label_pie_chart_screen.dart';
 import 'package:flutter_charts_demo/screens/pie_charts/simple_pie_chart_screen.dart';
 
@@ -21,16 +22,56 @@ class BuildPieCharts extends StatelessWidget {
             );
           },
         ),
-        // BuildChartTypeHeading(
-        //   title: 'OutSide Label Pie Chart',
-        //   onTap: () {
-        //     Navigator.of(context).push(
-        //       MaterialPageRoute(
-        //         builder: (context) => OutSideLabelPieChartScreen(),
-        //       ),
-        //     );
-        //   },
-        // ),
+        BuildChartTypeHeading(
+          title: 'OutSide Label Pie Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => OutSideLabelPieChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Partial Pie Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => PartialPieChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Donut Pie Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => DonutPieChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Auto Label Pie Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => AutoLabelPieChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Gauge Pie Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => GaugePieChartScreen(),
+              ),
+            );
+          },
+        ),
       ],
     );
   }
