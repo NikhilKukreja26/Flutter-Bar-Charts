@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
-import 'package:intl/intl.dart';
 
 import '../../models/custom_row_model.dart';
 
-class CustomAxisFormattersAxesChartScreen extends StatelessWidget {
-  final simpleCurrencyFormatter =
-      new charts.BasicNumericTickFormatterSpec.fromNumberFormat(
-          new NumberFormat.simpleCurrency());
-
+class GridlineDashPatternAxesChartScreen extends StatelessWidget {
   static List<charts.Series<CustomRowModel, DateTime>> createSampleData() {
     final data = [
       CustomRowModel(timeStamp: DateTime(2020, 6, 25), cost: 6),
@@ -38,7 +33,7 @@ class CustomAxisFormattersAxesChartScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Custom Axis Formatters Axes Chart'),
+        title: Text('Gridline Dash Pattern Axes Chart'),
       ),
       body: Container(
         padding: const EdgeInsets.all(20.0),
@@ -50,13 +45,10 @@ class CustomAxisFormattersAxesChartScreen extends StatelessWidget {
               animate: true,
               animationDuration: const Duration(milliseconds: 500),
               primaryMeasureAxis: charts.NumericAxisSpec(
-                tickFormatterSpec: simpleCurrencyFormatter,
-              ),
-              domainAxis: charts.DateTimeAxisSpec(
-                tickFormatterSpec: charts.AutoDateTimeTickFormatterSpec(
-                  day: charts.TimeFormatterSpec(
-                    format: 'd',
-                    transitionFormat: 'MM/dd/yyyy',
+                renderSpec: charts.GridlineRendererSpec(
+                  lineStyle: charts.LineStyleSpec(
+                    color: charts.MaterialPalette.black,
+                    dashPattern: [4, 4],
                   ),
                 ),
               ),
