@@ -7,6 +7,8 @@ import './screens/scatter_plot/index.dart';
 import './screens/combo_charts/index.dart';
 import './screens/pie_charts/index.dart';
 import './screens/axes_charts/index.dart';
+import './screens/legend_charts/index.dart';
+import './screens/behaviour_charts/index.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -28,6 +30,8 @@ class HomePage extends StatelessWidget {
               BuildComboCharts(),
               BuildPieCharts(),
               BuildAxesCharts(),
+              BuildLegendCharts(),
+              BuildBehaviourCharts(),
             ],
           ),
         ),
