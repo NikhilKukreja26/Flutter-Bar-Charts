@@ -20,6 +20,112 @@ class BuildBehaviourCharts extends StatelessWidget {
             );
           },
         ),
+        BuildChartTypeHeading(
+          title: 'Selection Highlight Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => SelectionHighlightChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Selection User Managed Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) =>
+                    SelectionUserManagedBehaviourChartScreen(),
+              ),
+            );
+          },
+        ),
+        // BuildChartTypeHeading(
+        //   title: 'Selection Callback Example Interactions Behaviour Chart',
+        //   onTap: () {
+        //     Navigator.of(context).push(
+        //       MaterialPageRoute(
+        //         builder: (context) =>
+        //             SelectionCallbackExampleInteractionsChartScreen(),
+        //       ),
+        //     );
+        //   },
+        // ),
+        BuildChartTypeHeading(
+          title: 'Chart Title Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => ChartTitleBehaviourChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Slider Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => SliderLineBehaviourChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Sliding On Selection Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => SlidingOnSelectionBehaviourChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Percent Of Domain Interactions Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) =>
+                    PercentOfDomainInteractionsBehaviourChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Percent Of Domain By Category Interactions Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) =>
+                    PercentOfDomainCategoryInteractionsChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Percent Of Series Interactions Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) =>
+                    PercentOfSeriesInteractionBehaviourChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Initial Hint Animation Behaviour Chart',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) =>
+                    InitialHintAnimationBehaviourChartScreen(),
+              ),
+            );
+          },
+        ),
       ],
     );
   }

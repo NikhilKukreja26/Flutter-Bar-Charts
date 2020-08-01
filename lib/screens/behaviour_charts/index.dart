@@ -1,2 +1,12 @@
 export 'build_behaviour_charts.dart';
 export 'initial_selection_interactions_chart_screen.dart';
+export 'selection_highlight_chart_screen.dart';
+export 'selection_user_managed_behaviour_chart_screen.dart';
+export 'selection_callback_example_interactions_chart_screen.dart';
+export 'chart_title_behaviour_chart_screen.dart';
+export 'slider_behaviour_chart_screen.dart';
+export 'sliding_on_selection_behaviour_chart_screen.dart';
+export 'percent_of_domain_interactions_behaviour_chart_screen.dart';
+export 'percent_of_domain_by_category_interactions_chart_screen.dart';
+export 'percent_of_series_interactions_behaviour_chart_screen.dart';
+export 'initial_hint_animation_behavior_chart_screen.dart';
