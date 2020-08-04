@@ -9,6 +9,7 @@ import './screens/pie_charts/index.dart';
 import './screens/axes_charts/index.dart';
 import './screens/legend_charts/index.dart';
 import './screens/behaviour_charts/index.dart';
+import './screens/rtl_charts/index.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -32,6 +33,7 @@ class HomePage extends StatelessWidget {
               BuildAxesCharts(),
               BuildLegendCharts(),
               BuildBehaviourCharts(),
+              BuildRtlCharts(),
             ],
           ),
         ),
