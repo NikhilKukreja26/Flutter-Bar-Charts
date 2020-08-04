@@ -1,6 +1,6 @@
 # Flutter Charts
  
- <details open>
+ <details>
 <summary>Bar Charts</summary>
   <ul>
   <li>Simple</li>
@@ -23,5 +23,21 @@
   <li>Custom Rounded Bars</li>
  </ul>
 </details>  
+<hr>
+<details>
+<summary>Time Series Charts</summary>
+  <ul>
+  <li>Simple</li>
+  <li>End Point Axis</li>
+  <li>Confidence Interval</li>
+  <li>Line Annotation</li>
+  <li>Grouped Target Line</li>
+  <li>Range Annotation</li>
+  <li>Range Annotation Margin</li>
+  <li>Symbol Annotation</li>
+  <li>With Bar Renderer</li>
+ </ul>
+</details>  
+<hr>
 
 
