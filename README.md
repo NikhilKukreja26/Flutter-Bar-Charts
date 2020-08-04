@@ -78,5 +78,17 @@
  </ul>
 </details>  
 <hr>
+<details>
+<summary>Pie Charts</summary>
+  <ul>
+  <li>Simple</li>
+  <li>Outside Label</li>
+  <li>Partial Pie</li>
+  <li>Donut</li>
+  <li>Auto Label</li>
+  <li>Guage</li>
+ </ul>
+</details>  
+<hr>
 
 
