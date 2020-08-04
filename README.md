@@ -1,8 +1,8 @@
-# Flutter Bar Charts
-
-<h2>Different Types of Bar Charts Example :</h2>
-
-<ul>
+# Flutter Charts
+ 
+ <details open>
+<summary>Bar Charts</summary>
+  <ul>
   <li>Simple</li>
   <li>Stacked</li>
   <li>Grouped</li>
@@ -22,5 +22,6 @@
   <li>Grouped Stacked Weight Pattern</li>
   <li>Custom Rounded Bars</li>
  </ul>
+</details>  
 
 
