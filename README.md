@@ -57,5 +57,26 @@
  </ul>
 </details>  
 <hr>
+<details>
+<summary>Scatter Plot Charts</summary>
+  <ul>
+  <li>Simple</li>
+  <li>Shapes</li>
+  <li>Comparison Points</li>
+  <li>Bucketing Axis</li>
+ </ul>
+</details>  
+<hr>
+<details>
+<summary>Combo Charts</summary>
+  <ul>
+  <li>Ordinal Bar Line</li>
+  <li>Numeric Line Bar</li>
+  <li>Numeric Line Point</li>
+  <li>Date Time Line Point</li>
+  <li>Scatter Plot Line</li>
+ </ul>
+</details>  
+<hr>
 
 
