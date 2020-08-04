@@ -1,6 +1,6 @@
 # Flutter Charts
  
- <details>
+ <details open>
 <summary>Bar Charts</summary>
   <ul>
   <li>Simple</li>
@@ -36,6 +36,24 @@
   <li>Range Annotation Margin</li>
   <li>Symbol Annotation</li>
   <li>With Bar Renderer</li>
+ </ul>
+</details>  
+<hr>
+<details>
+<summary>Line Charts</summary>
+  <ul>
+  <li>Simple</li>
+  <li>Points</li>
+  <li>Stacked Area</li>
+  <li>Stacked Area Custom Color</li>
+  <li>Area And Line</li>
+  <li>Simple Nulls</li>
+  <li>Stacked Area Nulls</li>
+  <li>Dash Pattern</li>
+  <li>Segments</li>
+  <li>Line Annotation</li>
+  <li>Range Annotation</li>
+  <li>Range Annotation Margin</li>
  </ul>
 </details>  
 <hr>
