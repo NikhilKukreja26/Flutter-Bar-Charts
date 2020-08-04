@@ -50,6 +50,26 @@ class BuildRtlCharts extends StatelessWidget {
             );
           },
         ),
+        BuildChartTypeHeading(
+          title: 'Rtl Stacked Bar Chart i18n',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => RtlStackedBarChartScreen(),
+              ),
+            );
+          },
+        ),
+        BuildChartTypeHeading(
+          title: 'Rtl Scatter Plot Chart i18n',
+          onTap: () {
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => RtlScatterPlotChartScreen(),
+              ),
+            );
+          },
+        ),
       ],
     );
   }
